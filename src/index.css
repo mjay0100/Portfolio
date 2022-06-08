@@ -2,16 +2,114 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #303030;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.intro {
+  position: relative;
+}
+
+.intro > * {
+  margin-bottom: 1rem;
+}
+
+.intro > .img {
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    grid-column-gap: 1rem;
+    width: min-content;
+    margin: 0 auto;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+
+  .title {
+    grid-area: title;
+    align-self: flex-end;
+    /* width: 350px; */
+  }
+  .subtitle {
+    align-self: start;
+    grid-column: -1/1;
+    grid-row: 2;
+    text-align: right;
+    /* width: 350px; */
+    position: relative;
+    left: -1.5rem;
+    width: calc(100% + 2rem);
+  }
+
+  .img {
+    grid-area: img;
+    min-width: 200px;
+    z-index: 2;
+  }
+}
+
+section {
+  padding: 2rem;
+}
+
+.services {
+  background-color: #303030;
+  background-image: url("https://public-v2links.adobecc.com/6ebfeb86-6eeb-4b69-77dc-ecf4c4506bcc/component?params=component_id%3Abb7d3720-d9d2-4c97-a90e-57abe85a0a99&params=version%3A0&token=1654780151_da39a3ee_efbf15b96277bfaeec60e354c7ce4356c8de10b7&api_key=CometServer1");
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.about-me {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-me > * {
+  margin-bottom: 1.3rem;
+}
+
+@media (min-width: 700px) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-column-gap: 2rem;
+    grid-template-areas:
+      "title img"
+      "subtitle img"
+      "text img";
+    align-items: center;
+  }
+  .about-me > .about-title {
+    grid-area: title;
+  }
+  .about-me > .about-subtitle {
+    grid-column: 1/-1;
+    position: relative;
+
+    grid-row: 2;
+    left: -2rem;
+    width: calc(100% + 4rem);
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .about-me > .about-text {
+    grid-area: text;
+  }
+
+  .about-me > .about-img {
+    grid-area: img;
+    z-index: 2;
+  }
 }
