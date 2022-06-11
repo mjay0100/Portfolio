@@ -17,7 +17,7 @@ const Works = () => {
         {Work.map((work) => {
           const { id, image } = work;
           return (
-            <article key={id} className="overflow-hidden mb-[1rem] md:mb-0">
+            <article key={id} className="overflow-hidden gmb-[1rem] md:mb-0">
               <img
                 src={image}
                 alt=""
