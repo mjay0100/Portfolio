@@ -1,7 +1,7 @@
 import React from "react";
 import Intro from "./Intro";
 import Services from "./Services";
-import Work from "./Work";
+import Works from "./Works";
 import About from "./About";
 const Content = () => {
   return (
@@ -9,7 +9,7 @@ const Content = () => {
       <Intro />
       <Services />
       <About />
-      <Work />
+      <Works />
     </div>
   );
 };
