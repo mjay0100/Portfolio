@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <section className="intro ">
+    <section className="intro " id='home'>
       <h1 className="title text-4xl ">
         Hi, I am <strong className="block">MJay</strong>
       </h1>

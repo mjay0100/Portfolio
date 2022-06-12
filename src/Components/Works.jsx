@@ -4,7 +4,7 @@ import { Work } from "../Data";
 const Works = () => {
   console.log(Work);
   return (
-    <section className="bg-[#303030] p-[7rem]">
+    <section className="bg-[#303030] p-[7rem]" id="works">
       <div className="text-center">
         <h2 className="text-white text-3xl mb-4">My works</h2>
 
