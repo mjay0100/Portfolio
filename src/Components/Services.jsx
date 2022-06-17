@@ -23,12 +23,9 @@ const Services = () => {
             );
           })}
         </div>
-        <Link
-          to="#works"
-          className="btn bg-[#16E0BD] my-[2rem] p-2 rounded-sm text-black hover:scale-105 transition-transform  "
-        >
-          see my work
-        </Link>
+        <button className="btn bg-[#16E0BD] my-[2rem] p-2 rounded-md text-black hover:scale-110 transition-all duration-300 ease-in-out ">
+          <Link to="#works">see my work</Link>
+        </button>
       </section>
     </BrowserRouter>
   );
