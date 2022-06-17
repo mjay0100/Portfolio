@@ -15,14 +15,21 @@ const Works = () => {
       </div>
       <div className="text-center w-fit mx-auto grid sm:grid-cols-2 lg:grid-cols-4 -[5rem] ">
         {Work.map((work) => {
-          const { id, image } = work;
+          const { id, image, url } = work;
           return (
-            <article key={id} className="overflow-hidden gmb-[1rem] md:mb-0">
-              <img
-                src={image}
-                alt=""
-                className="w-[300px] hover:transition-all rounded-sm  duration-700 ease-in-out hover:scale-110  hover:opacity-70"
-              />
+            <article
+              data-aos="zoom-in-up"
+              data-aos-duration="2000"
+              key={id}
+              className="border-2 border-solid border-[#14CFAE] overflow-hidden gmb-[1rem] md:mb-0"
+            >
+              <a href={url}>
+                <img
+                  src={image}
+                  alt=""
+                  className=" hover:transition-all rounded-sm  duration-700 ease-in-out hover:scale-110  hover:opacity-70"
+                />
+              </a>
             </article>
           );
         })}
