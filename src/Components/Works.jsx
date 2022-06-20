@@ -8,9 +8,7 @@ const Works = () => {
       <div className="text-center">
         <h2 className="text-white text-3xl mb-4">My works</h2>
 
-        <p className="text-[#14CFAE] mb-[2rem]">
-          A List of some of my works 😁😎.
-        </p>
+        <p className="text-[#14CFAE] mb-[2rem]">A List of some of my works.</p>
       </div>
       <div className="text-center w-fit mx-auto grid sm:grid-cols-2 lg:grid-cols-4 -[5rem] ">
         {Work.map((work) => {

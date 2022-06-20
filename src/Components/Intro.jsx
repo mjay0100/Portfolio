@@ -9,9 +9,13 @@ const Intro = () => {
         data-aos-mirror="true"
         className="title text-4xl "
       >
-        Hi, I am <strong className="block">MJay</strong>
+        Hi, I am <strong className="block">Mustapha J</strong>
       </h1>
-      <p className="subtitle bg-[#16E0BD] p-2 rounded-sm font-xl font-semibold">
+      <p
+        data-aos="zoom-in-up"
+        data-aos-duration="2000"
+        className="subtitle bg-[#16E0BD] p-2 rounded-sm font-xl font-semibold"
+      >
         Front End DEV
       </p>
 
@@ -19,8 +23,8 @@ const Intro = () => {
         data-aos="fade-right"
         data-aos-duration="2000"
         data-aos-mirror="true"
-        className="img shadow-sm shadow-[#16E0BD]/60 "
-        src="https://moglan.netlify.app/images/beautiful-curly-blonde-young-woman-white-trendy-blouse-touches-hair-attractive-girl-shirt-pearl-necklace-poses-outside.png"
+        className="img shadow-md shadow-[#16E0BD]/40 rounded-md "
+        src="https://pbs.twimg.com/profile_images/1537541357706874881/L-akY0mS_400x400.jpg"
         alt=""
       />
     </section>
