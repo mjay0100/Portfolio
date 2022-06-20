@@ -11,7 +11,7 @@ const Navbar = () => {
     <BrowserRouter>
       <header className="flex justify-between px-[2rem] my-3 items-center relative ">
         <div>
-          <h1 className="text-2xl md:px-[4rem]">MJ</h1>
+          <h1 className="text-2xl md:px-[4rem]"><a href="#">MJ</a></h1>
         </div>
 
         <nav
