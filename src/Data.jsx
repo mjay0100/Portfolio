@@ -1,29 +1,25 @@
 import { FaGithub, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import colorGame from "./images/colorGame.png";
 import Iwd from "./images/Iwd.png";
-import list from "./images/list.png";
+import menu from "./images/menu.png";
 import stripe from "./images/stripe.png";
 
 export const Service = [
   {
     id: 1,
     title: "Design + Development",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    body: "I design detailed websites that fit client's demand, Each client has his/her requirements and I take it upon myself to follow each specification to the T to meet clients demands ",
   },
   {
     id: 2,
-    title: "Design + Development",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "Reusable Code",
+    body: "I write well detailed,testable and efficient code by using best software practices. I integrate data from various source to meet all the desired requirements",
   },
-  {
-    id: 4,
-    title: "Design + Development",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
+
   {
     id: 3,
-    title: "Design + Development",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "Web  Development",
+    body: "I make the best web design with the most current and up-to-date technologies such as React,Nextjs,Tailwindcss among other to bring each website to its full potential.",
   },
 ];
 
@@ -35,8 +31,8 @@ export const Work = [
   },
   {
     id: 2,
-    url: "https://the-grocery-list.netlify.app/",
-    image: list,
+    url: "https://little-menu.netlify.app/",
+    image: menu,
   },
   {
     id: 3,
