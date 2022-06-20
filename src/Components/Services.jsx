@@ -11,8 +11,8 @@ const Services = () => {
         id="services"
       >
         <h1 className="text-3xl p-4 ">What I do</h1>
-        <div className="w-[50px] h-[2px] mx-auto bg-[#14CFAE] opacity-50 text-center "></div>
-        <div className="md:grid grid-cols-2">
+        <div className="w-[50px] h-[3px] mx-auto bg-[#14CFAE] opacity-50 text-center "></div>
+        <div className="md:grid grid-cols-3">
           {Service.map((item) => {
             const { id, title, body } = item;
             return (
