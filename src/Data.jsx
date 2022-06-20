@@ -64,7 +64,7 @@ export const Socials = [
   },
   {
     id: 4,
-    url: "https://www.linkedin.com/in/mustapha-jay-470275195/",
+    url: "https://www.linkedin.com/in/mustapha-jamil-470275195/",
     icon: <FaLinkedin />,
   },
 ];
