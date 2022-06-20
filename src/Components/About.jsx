@@ -1,3 +1,4 @@
+import myself from "../images/myself2.jpeg";
 const About = () => {
   return (
     <section className="about-me" id="about">
@@ -18,22 +19,19 @@ const About = () => {
         A passionate Web Designer
       </p>
       <div
-        data-aos-duration="1500"
         data-aos-mirror="true"
         data-aos="fade-right"
-        className="about-text self-center"
+        className="about-text fw-semibold self-center"
       >
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Hi there! I'm Mustapha, a web designer based in Kano, Nigeria .My main
+          expertise lies in designing and making responsive, user friendly and
+          interactive web pages. Though I do dabble in graphic design and
+          illustration. If you like my site, don’t hesitate to reach out!
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          I am passionate about creating user-centered design,gathering and
+          translating user data into a design that fits the requirements.
         </p>
       </div>
       <img
@@ -41,7 +39,7 @@ const About = () => {
         data-aos-mirror="true"
         data-aos="fade-left"
         className="about-img"
-        src="https://moglan.netlify.app/images/1lip.jpg"
+        src={myself}
         alt=""
       />
     </section>
