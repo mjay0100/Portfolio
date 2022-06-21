@@ -20,6 +20,8 @@ const About = () => {
       </p>
       <div
         data-aos-mirror="true"
+        data-aos-duration="1500"
+
         data-aos="fade-right"
         className="about-text fw-semibold self-center"
       >
